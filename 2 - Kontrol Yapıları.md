@@ -10,7 +10,10 @@ If yapısı "Eğer şu doğru ise şunu şunu şunu yap" şeklinde çalışır. 
 `yourInt = 6`
 
 `If myInt < yourInt:`
-  
+ 
+ 
+ 
+ 
 &nbsp;`  myInt = myInt + 1`
   
   
