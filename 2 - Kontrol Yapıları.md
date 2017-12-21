@@ -23,5 +23,17 @@ If yapısı "Eğer şu doğru ise şunu şunu şunu yap" şeklinde çalışır. 
 
 Yani eğer myInt yourInt'den küçük ise if'in içindeki işlemi yapacak.
 
-Not1: Bir kodu kontrol yapısının içine almak için "Tab" tuşuna basmalısınız. (Genellikle Q harfinin solundaki tuş) Bu şekilde kod parçasının sağa doğru hareket ettiğini göreceksiniz. Program, kontrol yapısına girdiğinde yapının bir tab içindeki kod parçacığını çalıştırmaya başlar.
+Not 1: Bir kodu kontrol yapısının içine almak için "Tab" tuşuna basmalısınız. (Genellikle Q harfinin solundaki tuş) Bu şekilde kod parçasının sağa doğru hareket ettiğini göreceksiniz. Program, kontrol yapısına girdiğinde yapının bir tab içindeki kod parçacığını çalıştırmaya başlar.
 
+## Else - Değilse Yapısı
+Eğer if yapısının sonucu Doğru değilse program if yapısının içindeki kod parçacıklarını atlayarak devam eder. Ancak bazen if doğru değilse bir şey yapmasını istyebiliriz. Bu durumda kullanacağımız yapı Else yapısıdir.
+
+`myBool = False`
+
+`If myBool:`
+
+&nbsp;&nbsp;&nbsp;&nbsp;`print("Hi!")`
+
+`Else:`
+
+&nbsp;&nbsp;&nbsp;&nbsp;`print("Bye!")`
