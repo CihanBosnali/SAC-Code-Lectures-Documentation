@@ -14,7 +14,7 @@ If yapısı "Eğer şu doğru ise şunu şunu şunu yap" şeklinde çalışır. 
  
  
  
-&nbsp;`  myInt = myInt + 1`
+&nbsp; &nbsp; &nbsp; &nbsp;`  myInt = myInt + 1`
   
   
 İlk iki satırda kullanacağımız değişkenleri tanımladık.
