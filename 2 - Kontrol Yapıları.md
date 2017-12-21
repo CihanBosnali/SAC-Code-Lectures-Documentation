@@ -4,15 +4,15 @@ Kontrol yapıları yazılımın en önemli parçalarından biridir. Programları
 ## If - Eğer Yapısı
 If yapısı "Eğer şu doğru ise şunu şunu şunu yap" şeklinde çalışır. Daha iyi görmek için kod üzerinden gidelim. Bir if komutu şu şekilde yazılır:
 
-` 
-myInt = 5
 
-yourInt = 6
+`myInt = 5`
 
-If myInt < yourInt:
-  
-  myInt = myInt + 1
-  `
+`yourInt = 6`
+
+`If myInt < yourInt:`
+  
+&nbsp;`  myInt = myInt + 1`
+  
   
 İlk iki satırda kullanacağımız değişkenleri tanımladık.
 
