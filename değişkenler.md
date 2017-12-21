@@ -53,3 +53,12 @@ Character değişkeni de String gibi yazı tutar. tek bir harf veya karakteri tu
 ` myAnswer = 'c' `
 
 Not 1: Python dilinde bir character birden fazla karakteri tutabilir. Bu nedenle String'den önemli bir farkı yoktur. :)
+
+## Boolean - Doğru - Yanlış (0 - 1) Değişkeni
+Bir bool sadece iki değer alabilir: Doğru ve Yanlış. Genellikle kontrol komutlarında çok işe yarar.
+
+Şu şekillerde gösterilebilir:
+
+*Direkt olrak Doğru veren bir değişken için: ` myBool = True `
+*Direkt olrak Yanlış veren bir değişken için: ` myBool = False `
+*Bir kontrol işleminin cevabını veren değişken için: ` myBool = (5 * 2 < 12) `
