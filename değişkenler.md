@@ -17,3 +17,16 @@ Peki bu değişken türleri nelerdir?
 * Float
 * Character
 * Boolean
+
+## String - Yazı Değişkeni
+Stringler içlerinde yazıları tuttuğumuz değişkenlerdir. İçine koyduğumuz değer bir yazı olarak algılanacaktır. Örneğin bir sayı koyduğumuzda, bu sayı da bilgisayar tarafındn sayı olarak algılanmaz ve matematiksel işlem yapılamaz.
+
+Stringler şu şekilde belirtilir:
+
+`
+myNewString = "Hello World!"
+`
+
+Not 1: Çift Tırnak ("   ") işareti içine alınan her şey bilgisayar tarafından yazı olarak algılanır. Çift tırnak işareti içine koyulmayan her yazı ise kod parçacığı olarak algılır. Örneğin string belirtirken hatayla ``` myString = Hello ``` gibi yazarsanız. Kodunuzda Hello isminde bir değişken arayacaktır. Bulamayınca da hata verecektir.
+
+Not 2: myNewString benim tarafımdan verilmiş bir isimdir. Siz istediğiniz herhangi bir ismi kullanabilirsiniz.
