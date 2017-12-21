@@ -31,9 +31,25 @@ Not 1: Çift Tırnak ("   ") işareti içine alınan her şey bilgisayar taraf�
 
 Not 2: myNewString benim tarafımdan verilmiş bir isimdir. Siz istediğiniz herhangi bir ismi kullanabilirsiniz.
 
-## Integer
+## Integer - Tam Sayı Değişkeni
 Integerlar tam sayı değişkenleridir. Tuttukları değerler tam sayıdır. Herhangi bir yazı tutamazlar.
 
 Şu şekilde gösterilirler:
 
 ``` myInteger = 42 ```
+
+## Float - Ondalıklı Sayı Değişkeni
+Float isimli değişkenler ondalıklı sayıları tutarlar. Örneğin 12.35261 gibi bir sayı float ile tutulur. Eğer tutulan sayı tam sayı ise 12.0 şeklinde gösterilir.
+
+Şu şekilde gösterilirler:
+
+``` piNumber = 3.14159265 ```
+
+## Character - Karakter (harf) değişkeni
+Character değişkeni de String gibi yazı tutar. tek bir harf veya karakteri tutmak için kullanılır.
+
+Şu şekide gösterilir:
+
+` myAnswer = 'c' `
+
+Not 1: Python dilinde bir character birden fazla karakteri tutabilir. Bu nedenle String'den önemli bir farkı yoktur. :)
