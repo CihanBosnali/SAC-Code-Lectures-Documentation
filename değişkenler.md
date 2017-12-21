@@ -62,3 +62,11 @@ Bir bool sadece iki değer alabilir: Doğru ve Yanlış. Genellikle kontrol komu
 *Direkt olrak Doğru veren bir değişken için: ` myBool = True `
 *Direkt olrak Yanlış veren bir değişken için: ` myBool = False `
 *Bir kontrol işleminin cevabını veren değişken için: ` myBool = (5 * 2 < 12) `
+
+# Bazı Önemli Notlar
+
+* Bir değişken başka değişkenlerle yapılan bir işlemin sonucuna atanabilir. Örneğin:
+
+``` Toplam = sayi1 + sayi2 + sayi3 ```
+
+* Python Büyük harf - Küçük harf farkına duyarlı bir dildir. `Toplam` ile `toplam` aynı şey değildir.
