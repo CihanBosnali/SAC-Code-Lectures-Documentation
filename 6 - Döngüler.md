@@ -10,7 +10,7 @@ Bir program bazen aynı kod veya kod parçacığını onlarca kez kullanır. Pek
 * 6) Bitir.
 
 Peki bunu Python ile nasıl yazabiliriz? İki yönten var: While Döngüsü ve For döngüsü.
-## While (sürece) Döngüsü
+## While Döngüsü
 While döngüleri şu şekilde yazılırlar:
 
 `i = 0`
@@ -28,3 +28,24 @@ While döngüleri şu şekilde yazılırlar:
 Üçüncü satırda içerde istediğim işlemi yaptık.
 
 Dördüncü adımda ise i'yi arttırdık. Bu sayede i aynı kalmadı ve i 10 olana kadar ilerledi.
+
+## For Döngüsü
+
+For döngüleri şu şekilde yazılır:
+
+`for i in range(0,10,1):`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`print("Hello World!")`
+
+İlk satırda for döngümüzü oluşturduk. Bu kodun anlamı: i isimli bir değişken yarat. 0'dan 10'a kadar teker teker ilerlet ve her seferinde döngüye gir. 
+
+Bu koddaki `range()` de bir fonksiyon. içine üç değer alıyor: Başlangıç, Bitiş, Aralık. Yani `range(1,10,1)` şu anlama geliyor: i'yi 1 den başlat. 10'da bitir. birer birer ilerlet.
+
+Not 1: Range fonksiyonu yerine başka şeyler de koyabiliriz. Örneğin:
+
+`myArray = ["cat", "dog", "bird"]`
+
+`for pet in myArray:`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`print(pet)`
+
+Bu kod parçası sırayla myArray dizisindeki her elemanı `pet` değişkenine atar ve onunla içeride işlem yapar.
