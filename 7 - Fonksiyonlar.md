@@ -20,7 +20,7 @@ fonksiyonlar bazen fonksiyon dışından değer alarak çalışır. Fonksiyon ç
 
 Bir fonksiyonu çağırırken sadece bunu yazmamız gerekiyor. FonksiyonunAdı(parametreler) şeklinde yazılıyor. 
 
-Not 1:Bizim fonksiyonumuz iki parametre alıyor ama istediğiniz kadar alabilir (0 da dahil).
+Not 1: Bizim fonksiyonumuz iki parametre alıyor ama istediğiniz kadar alabilir (0 da dahil).
 
 ## Return işlemi
 Bazı durumlarda fonksiyonun son bir değer vermesini ve bunu dışardaki bir değişkene atamak isteyebiliriz. Bu işleme `return` diyoruz. Örnek bir topla fonksiyonu yazalım:
@@ -34,3 +34,5 @@ Bazı durumlarda fonksiyonun son bir değer vermesini ve bunu dışardaki bir de
 `sonuc = topla(7, 10)`
 
 `print(sonuc)`
+
+Bu programda `topla` fonksiyonunu oluşturduk, `return` ile sonuc isimli bir değişkene atatık. Sonrasında bu değişkeni print ettik.
