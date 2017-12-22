@@ -1,2 +1,13 @@
-# Döngüler
-Bir program bazen aynı kod veya kod parçacığını onlarca kez kullanır. Peki bu kod parçacığını o kadar çok kez yazacak mıyız? Tabi ki hayır.
+# Döngüler (Loops)
+Bir program bazen aynı kod veya kod parçacığını onlarca kez kullanır. Peki bu kod parçacığını o kadar çok kez yazacak mıyız? Tabi ki hayır. Bir program aynı işi bir çok kez sırayla yapacaksa, aynı şeyi yazıp durmak yerine bir döngü kullanarak programı döngünün başına geri alıp tekrar okutturuyoruz. 
+
+Örneğin bir programın 10 kez "Hello World!" yazdığını düşünelim. Algoritması şu şekilde olacaktır:
+* 1) i'yi 1 olarak ayarla
+* 2) i 10'dan küçükse devam et. Değilse 6. bölüm'e git.
+* 3) "Hello world" yaz.
+* 4) i'yi 1 arttır.
+* 5) 2. adıma dön
+* 6) Bitir.
+
+Peki bunu Python ile nasıl yazabiliriz? İki yönten var: While Döngüsü ve For döngüsü.
+## While Döngüsü
