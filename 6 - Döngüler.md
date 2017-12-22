@@ -11,3 +11,13 @@ Bir program bazen aynı kod veya kod parçacığını onlarca kez kullanır. Pek
 
 Peki bunu Python ile nasıl yazabiliriz? İki yönten var: While Döngüsü ve For döngüsü.
 ## While Döngüsü
+While döngüleri şu şekilde yazılırlar:
+
+`i = 0`
+
+`while i < 10:`
+
+&nbsp;&nbsp;&nbsp;&nbsp;`print("Hello World!")`
+
+&nbsp;&nbsp;&nbsp;&nbsp;`i += 1`
+
