@@ -10,14 +10,21 @@ Bir program bazen aynı kod veya kod parçacığını onlarca kez kullanır. Pek
 * 6) Bitir.
 
 Peki bunu Python ile nasıl yazabiliriz? İki yönten var: While Döngüsü ve For döngüsü.
-## While Döngüsü
+## While (sürece) Döngüsü
 While döngüleri şu şekilde yazılırlar:
 
 `i = 0`
 
 `while i < 10:`
 
-&nbsp;&nbsp;&nbsp;&nbsp;`print("Hello World!")`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`print("Hello World!")`
 
-&nbsp;&nbsp;&nbsp;&nbsp;`i += 1`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`i += 1`
 
+İlk satırda i isimli bir değişken oluşturup 0'a eşitledik. 
+
+İkinci satırda while döngümüzü yazdık. Yazdığımız kodun anlamı şu: i değişkeninin değeri 10'dan küçük olduğu sirce döngüye gir.
+
+Üçüncü satırda içerde istediğim işlemi yaptık.
+
+Dördüncü adımda ise i'yi arttırdık. Bu sayede i aynı kalmadı ve i 10 olana kadar ilerledi.
