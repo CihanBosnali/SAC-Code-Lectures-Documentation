@@ -45,6 +45,15 @@ Append fonksiyonu bir dizinin içine kod ile yeni bir değişken koymamızı sa�
 
 `myArray.append("Lion")`
 
-Üstteki kodda myArray isimli dizinin en sonuna Lion isimli bir değişken ekliyoruz. Array şu şekile geliyor:
+Üstteki kodda myArray isimli dizinin en sonuna Lion isimli bir string ekliyoruz. Array şu şekile geliyor:
 
 `myArray = ["Rabbit", "Dog", "Cat", "Bird", "Fish", "Lion"]`
+
+### Remove Fonksiyonu
+Remove fonksiyonu bir dizinin içindeki bir değişkeni diziden çıkarmamızı sağlar.
+
+`myArray.remove("Lion")`
+
+Üstteki kodda myArray isimli diziden Lion string'ini çıkartıyoruz. Dizi şu şekile geliyor:
+
+`myArray = ["Rabbit", "Dog", "Cat", "Bird", "Fish"]`
