@@ -46,6 +46,7 @@ Not 1: Range fonksiyonu yerine başka şeyler de koyabiliriz. Örneğin:
 `myArray = ["cat", "dog", "bird"]`
 
 `for pet in myArray:`
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`print(pet)`
 
 Bu kod parçası sırayla myArray dizisindeki her elemanı `pet` değişkenine atar ve onunla içeride işlem yapar.
