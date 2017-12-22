@@ -43,6 +43,25 @@ Programlamada = işareti "atama" amacıyla kullanılır. (atama işlemine deği�
 Not: Bu işlemler `True` (Doğru) veya `False` (Yanlış) olarak iki sonuç dönmektedir.
 
 ## Eşit Değildir
-Maatematikte "eşit değildir" işareti eşittir işaretinin üzerine bir çizgi atarak kullanılır. Ancak klavyede böyle bir şey yapamayız. O yüzden yazılım dillerinde eşit değildir demek için `!=` (ünlem işareti ve eşittir işareti) yazıyoruz. Sanki çizgiyi üzerine koyamayınca yanına koymuşuz gibi görünüyor değil mi?
+Matematikte "eşit değildir" işareti eşittir işaretinin üzerine bir çizgi atarak kullanılır. Ancak klavyede böyle bir şey yapamayız. O yüzden yazılım dillerinde eşit değildir demek için `!=` (ünlem işareti ve eşittir işareti) yazıyoruz. Sanki çizgiyi üzerine koyamayınca yanına koymuşuz gibi görünüyor değil mi?
 
 `print(7 != 4)`
+
+## Büyüktür ve Küçüktür
+Büyüktür ve küçüktür işaretleri matematikte kullanıldığı ile aynı şekilde kullanılır:
+
+`print(4 < 8)`
+
+ve
+
+`print(7 > 6)`
+
+## Büyük eşittir ve küçük eşittir
+
+Büyük eşit ve küçük eşit işaretlerinde yine matematiksel gösterimi kullanamadğımızdan dolayı `<=` ve ` >=` işaretleri kullanılır:
+
+`print(3 >= 3)`
+
+ve
+
+`print(8 <= 8)`
