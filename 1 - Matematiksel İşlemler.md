@@ -56,7 +56,7 @@ ve
 
 `print(7 > 6)`
 
-## Büyük eşittir ve küçük eşittir
+## Büyük Eşittir ve Küçük Eşittir
 
 Büyük eşit ve küçük eşit işaretlerinde yine matematiksel gösterimi kullanamadğımızdan dolayı `<=` ve ` >=` işaretleri kullanılır:
 
