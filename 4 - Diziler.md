@@ -34,3 +34,17 @@ Program `myArray[myInt]` satırına geldiğinde myInt yerine değeri olan 3 say�
 Normal hayatta sayma sayıları 1'den başlar. Ancak programlamada sayma sayılarımız 0'dan başlar deriz. Yani dizinin ilk elemanı 0. elemanıdır.
 
 Bu durumda ilk örnekteki `print(fruits[1])` kodunun yazdıracağı değer `pear` değeridir.
+
+## Dizilerde Kullanılan Birkaç Fonksiyon
+Fonksiyonlar konusunu fonksiyonlar isimli sayfada göreceksiniz. Bir fonksiyon kısaca tek bir satırla başka bir yerde yazılmış kodu çalıştıran kod parçasıdır.
+
+Bu bölüm dizilerde kullanılan, Python ile gelen bazı fonksiyonlar ile ilgilidir.
+
+### Append Fonksiyonu
+Append fonksiyonu bir dizinin içine kod ile yeni bir değişken koymamızı sağlar:
+
+`myArray.append("Lion")`
+
+Üstteki kodda myArray isimli dizinin en sonuna Lion isimli bir değişken ekliyoruz. Array şu şekile geliyor:
+
+`myArray = ["Rabbit", "Dog", "Cat", "Bird", "Fish", "Lion"]`
