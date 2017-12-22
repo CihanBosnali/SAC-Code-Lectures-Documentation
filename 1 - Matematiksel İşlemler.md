@@ -31,3 +31,18 @@ Eğer iki kez yıldız (`**`) kullanırsak bu üstünü alma işlemidir.
 `print(2 ** 3)`
 
 Yukarıdaki kodun çıktısı "2 üstü 3" yani 2 x 2 x 2 = 8'dir.
+
+# Büyüktür, Küçüktür, Eşittir...
+Matematikte kullandığımız <, >, = gibi işaretler programlamada da karşımıza çıkar. Peki bu işaretleri python'da nasıl kullanıyoruz.
+
+## Eşittir
+Programlamada = işareti "atama" amacıyla kullanılır. (atama işlemine değişkenler bölümünden okuyabilirsiniz.) O yüzden eşittir demek için `==` (iki tane = işareti) kullanılıyor.
+
+`print(5 == 5)`
+
+Not: Bu işlemler `True` (Doğru) veya `False` (Yanlış) olarak iki sonuç dönmektedir.
+
+## Eşit Değildir
+Maatematikte "eşit değildir" işareti eşittir işaretinin üzerine bir çizgi atarak kullanılır. Ancak klavyede böyle bir şey yapamayız. O yüzden yazılım dillerinde eşit değildir demek için `!=` (ünlem işareti ve eşittir işareti) yazıyoruz. Sanki çizgiyi üzerine koyamayınca yanına koymuşuz gibi görünüyor değil mi?
+
+`print(7 != 4)`
