@@ -1,4 +1,4 @@
-kullanıyoruz# Python'da Matematiksel İşlemler
+# Python'da Matematiksel İşlemler
 Tüm yazılım dilleri, matematiksel işlemler yapmakta ustadırlar. Bunun nedeni de bilgisayarlarımızın matematik üzerine kurulu sistemlerden oluşmasıdır. Her programda matematik kullanırız. Bu yüzden matematik işlemerini nasıl yaptığımızı görmek de önemlidir.
 
 Peki, bu işlemler nasıl yapılır?
