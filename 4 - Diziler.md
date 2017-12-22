@@ -30,4 +30,7 @@ Not 1: Bir dizinin içinden değişken alırken köşeli parantezin içine değe
 
 Program `myArray[myInt]` satırına geldiğinde myInt yerine değeri olan 3 sayısını koyar ve `myArray[3]` komutunu uygular.
 
-# Programcılar Saymaya Sıfırdan Başlar!
+## Programcılar Saymaya Sıfırdan Başlar!
+Normal hayatta sayma sayıları 1'den başlar. Ancak programlamada sayma sayılarımız 0'dan başlar deriz. Yani dizinin ilk elemanı 0. elemanıdır.
+
+Bu durumda ilk örnekteki `print(fruits[1])` kodunun yazdıracağı değer `pear` değeridir.
