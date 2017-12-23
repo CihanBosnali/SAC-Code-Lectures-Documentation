@@ -30,3 +30,5 @@ Hepsini büyük harf yapmak için: `textName.upper()`
 Hepsini büyük harf yapmak için: `textName.lower()`
 
 komutlarını kullanıyoruz.
+
+Not: `textName` kullandığımız değişkenin adı.
