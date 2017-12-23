@@ -23,4 +23,10 @@ Not 2: Dosyalarınızın uzantısı `.txt` olmalıdır.
 Not 3: `as` komutundan sonra yazdığımız `Dosya` ismini biz verdik. İstediğinizi kullanabilirsiniz.
 
 ## Küçük Harf - Büyük Harf
-Merhaba ve merhaba aynı kelime midir? Bir bilgisayar için değildir. Ama biz bir metin ile uğraşırken ikisinin aynı kelime olarak görülmesini istiyoruz, çünkü metin madenciliğinde kelimenin büyük harf - küçük harf'ine bakmamamız gerekiyor.
+Merhaba ve merhaba aynı kelime midir? Bir bilgisayar için değildir. Ama biz bir metin ile uğraşırken ikisinin aynı kelime olarak görülmesini istiyoruz, çünkü metin madenciliğinde herhangi bir anlam değişikliği yapmadığı için kelimenin büyük harf - küçük harf'ine bakmamamız gerekiyor. Peki nasıl kod ile bu işi değiştereceğiz? İki seçenek var: Hepsini küçük harf yapmak veya hepsini küçük harf yapmak.
+
+Hepsini büyük harf yapmak için: `textName.upper()`
+
+Hepsini büyük harf yapmak için: `textName.lower()`
+
+komutlarını kullanıyoruz.
