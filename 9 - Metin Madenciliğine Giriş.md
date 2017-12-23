@@ -8,10 +8,16 @@ Metin Madenciliği uygulamalarına örnek olarak "En çok kullanılan kelimeyi b
 ## Metini Kodumuza Almak
 Metin üzerinde işlem yapmak için öncelikle metini bilgisayarımızdan koda göndermemiz gerekiyor. Bunun için şu kod parçasını kullanıyoruz:
 
-`with open("DOSYA İSMİ") as Dosya:`
+`with open("DOSYA İSMİ","r") as Dosya:`
 
-open fonksiyonunun içine dosyamızın bilgisayardaki yerini yazıyoruz. Örnek olarak ben masaüstümdeki test adlı dosya için şunu yazmalıyım: `/users/cihan/Desktop/test.txt`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`data = Dosya.read()`
+
+open fonksiyonunun içine dosyamızın bilgisayardaki yerini yazıyoruz. Örnek olarak ben masaüstümdeki test adlı dosya için şunu yazmalıyım: `/users/cihan/Desktop/test.txt`. `"r"`'nin açılımı ise `read`'dir. Dosyayı okumak için aldığımızı belirtiyoruz.
+
+İkinci satırda data isimli değişkeni, Dosya'ya yazdığımız read fonksiyonun return'üne atıyoruz. Yani verdiğimiz text'i bir string olarak data değişkenine atıyoruz.
 
 Not 1: Ben MacOS işletim sistemi kullanıyorum. Sizin işletim sisteminize göre değişebilir.
 
 Not 2: Dosyalarınızın uzantısı `.txt` olmalıdır.
+
+Not 3: `as` komutundan sonra yazdığımız `Dosya` ismini biz verdik. İstediğinizi kullanabilirsiniz.
