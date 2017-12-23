@@ -21,3 +21,6 @@ Not 1: Ben MacOS işletim sistemi kullanıyorum. Sizin işletim sisteminize gör
 Not 2: Dosyalarınızın uzantısı `.txt` olmalıdır.
 
 Not 3: `as` komutundan sonra yazdığımız `Dosya` ismini biz verdik. İstediğinizi kullanabilirsiniz.
+
+## Küçük Harf - Büyük Harf
+Merhaba ve merhaba aynı kelime midir? Bir bilgisayar için değildir. Ama biz bir metin ile uğraşırken ikisinin aynı kelime olarak görülmesini istiyoruz, çünkü metin madenciliğinde kelimenin büyük harf - küçük harf'ine bakmamamız gerekiyor.
