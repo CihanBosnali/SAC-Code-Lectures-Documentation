@@ -33,7 +33,7 @@ komutlarını kullanıyoruz.
 
 Not: `textName` kullandığımız değişkenin adı.
 
-## Kelimeleri, Cümleleri ayırmak
+## Kelimeleri, Cümleleri Ayırmak
 
 Kelimeleri veya cümleleri birbirinden ayırıp, bir diziye atamak için split fonksiyonunu kullanıyoruz:
 
