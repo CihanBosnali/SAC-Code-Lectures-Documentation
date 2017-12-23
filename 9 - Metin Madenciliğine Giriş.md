@@ -32,3 +32,23 @@ Hepsini büyük harf yapmak için: `textName.lower()`
 komutlarını kullanıyoruz.
 
 Not: `textName` kullandığımız değişkenin adı.
+
+## Kelimeleri, Cümleleri ayırmak
+
+Kelimeleri veya cümleleri birbirinden ayırıp, bir diziye atamak için split fonksiyonunu kullanıyoruz:
+
+`textName.split(" ")`
+
+Üstteki kodda textName isimli string'i boşluklardan ayırıyoruz. Split fonksiyonunun içine nokta (".") koysaydık bu sefer cümlelerden ayırmış olurduk.
+
+Örnek olarak:
+
+`textName = "merhaba güzel dünya"`
+
+`textArray = textName.split(" ")`
+
+`print(textArray)`
+
+print'in çıktısı --> `["merhaba", "güzel", "dünya"]`
+
+Artık textArray üzerinde istediğimiz tüm dizi işlemlerini yapabiliriz.
