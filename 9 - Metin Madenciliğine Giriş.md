@@ -9,3 +9,9 @@ Metin Madenciliği uygulamalarına örnek olarak "En çok kullanılan kelimeyi b
 Metin üzerinde işlem yapmak için öncelikle metini bilgisayarımızdan koda göndermemiz gerekiyor. Bunun için şu kod parçasını kullanıyoruz:
 
 `with open("DOSYA İSMİ") as Dosya:`
+
+open fonksiyonunun içine dosyamızın bilgisayardaki yerini yazıyoruz. Örnek olarak ben masaüstümdeki test adlı dosya için şunu yazmalıyım: `/users/cihan/Desktop/test.txt`
+
+Not 1: Ben MacOS işletim sistemi kullanıyorum. Sizin işletim sisteminize göre değişebilir.
+
+Not 2: Dosyalarınızın uzantısı `.txt` olmalıdır.
