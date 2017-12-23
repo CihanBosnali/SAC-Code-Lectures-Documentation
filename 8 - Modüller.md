@@ -8,11 +8,26 @@ Her kodu elle yazmaya çalışmak, her araba yapılışında tekerleği baştan 
 
 komutu ile random modülünü çağırıyoruz. (Random şansa sayı üreten bir modüldür.)
 
+## Kullanım
+Her modülün kullanımı farklı olsa da içi fonksiyonlardan oluşur. Örneğin `random` modülündeki bazı fonksiyonlara göz atalım:
 
+`myRandNum = random.randint(1,10)`
 
+Üstteki koddaki kullanım `DeğişkenAdı = ModülAdı.Fonksiyon` şeklindeydi.
 
+## Çok Kullanılan Bazı Modüller
 
+### Random
+Random şansa sayı üretme modülüdür. Özellikle Oyun, Çekiliş vs. programlarında çokca kullanılır. Random modülünde birçok fonksiyon var. Bunlardan basit olanlara bakalım:
 
+`random.random()` -> 0 ile 1 arasında şans sayı üretir.
 
+`random.randint(start, end)` -> start ve end intiger'ları arasında tam sayı üretir.
+
+`random.randrange(start, end, aralık)` -> start ve end intiger'ları arasında şansa aralık ile sayı üretir. Örneğin, aralık 2 ise çift sayı üretir.
+
+`item = [1,2,3,4,5,6]`
+
+`random.shuffle(item)` -> item isimli dizinin elemanlarının sırasını karıştırır.
 
 Not 1: Modüller bazı kaynaklarda kütüphane (library) olarak geçer.
